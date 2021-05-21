@@ -42,8 +42,8 @@ if (isset($_POST["Submit"])) {
     $mail->isSMTP();
     $mail->Host = 'mail.maktub.tech';
     $mail->SMTPAuth = true;
-    $mail->Username = 'maktuber@maktub.tech';
-    $mail->Password = 'Betta12#$Gamma34!@';
+    $mail->Username = 'EMAIL';
+    $mail->Password = 'SENHA';
     $mail->Port = 587;
 
     $mail->setFrom('equipe@maktub.tech.com');
